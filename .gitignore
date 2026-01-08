@@ -1,0 +1,18 @@
+# ---- Java build artifacts ----
+*.class
+
+# ---- Server runtime outputs ----
+server/log.txt
+server/serverFiles/*
+!server/serverFiles/.gitkeep
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---- IDE / editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
